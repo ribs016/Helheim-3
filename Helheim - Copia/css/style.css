@@ -1,0 +1,52 @@
+
+
+body {
+    background-color:rgb(0, 0, 0);
+    color: white;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+*::-webkit-scrollbar{
+    background-color: black;
+    width: 5px;
+}
+
+*::-webkit-scrollbar-track{
+    margin-block: 30px;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 40px;
+}
+
+button {
+    background-color: rgb(36, 36, 39);
+    color: rgb(255, 255, 255);
+    font-family: "Nerko One", cursive;
+}
+ 
+.passo {
+    display: none;
+   
+}
+
+.passo.ativo {
+    display:block;
+    
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img{
+    max-width: 90%;
+}

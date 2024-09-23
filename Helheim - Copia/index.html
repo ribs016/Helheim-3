@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Helheim</title>
+
+
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="assets/cenario-passo0.jpg" alt="">
+            <p class="text" id="text01"></p>
+            <button class="btn-proximo" data-proximo="1">Seguir o som</button>
+            <button class="btn-proximo" data-proximo="2">Não seguir o som</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="assets/cenario-passo1.jpg" alt="">
+            <p class="text" id="text02"></p>
+            <button class="btn-proximo" data-proximo="3">Ajudar o estranho</button>
+            <button class="btn-proximo" data-proximo="10">Não ajudar o estranho</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p class="text" id="text03"></p>
+            <button class="btn-proximo" data-proximo="5">Seguir junto de Sten</button>
+            <button class="btn-proximo" data-proximo="2">Ir por outro caminho</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="assets/cenario-passo5.jpg" alt="">
+            <p class="text" id="text4">Vocês encontra o castelo da suposta rainha, contudo, mesmo com tamanha imensidão, se encontra vazio, entretanto, indo mais adiante, ambos avistam uma figura feminina, um tanto mórbida, porém bela, "é ela, Hela, a Deusa do submundo!" diz Sten. Ela os avistam e diz como uma voz um tanto candada: "Já sei o que vieram fazer aqui, posso fazer isso,então vamos logo com isto". Sten espantado então aceita sem hesitar e desaparece num piscar de olhos, "então só sobrou você pobre criança. Não tenha medo, ele foi para um lugar melhor, gostaria de se juntar a ele ou quer continuar nesse reino sombrio e vazio?"</p>
+            <button class="btn-proximo" data-proximo="7">Aceitar a proposta</button>
+            <button class="btn-proximo" data-proximo="8">Recusar e aceitar o destino</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p class="text" id="text05"></p>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p class="text" id="text06"></p>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="assets/cenario-passo2.jpg" alt="">
+            <p class="text" id="text07"></p>
+            <button class="btn-proximo" data-proximo="9">Entrar no cemitério</button>
+            <button class="btn-proximo" data-proximo="10">Seguir por outro caminho</butto>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="assets/cenario-passo9.jpg" alt="">
+            <p class="text" id="text08"></p>
+            <button class="btn-proximo" data-proximo="11">Se aproximar do túmulo</button>
+            <button class="btn-proximo" data-proximo="10">Ir embora</butto>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p class="text" id="text09"></p>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="assets/cenario-passo10.jpg" alt="">
+            <div class="conteiner">
+                <p class="text" id="text10"></p>
+                <button class="btn-proximo" data-proximo="7">Aceitar proposta</button>
+                <button class="btn-proximo" data-proximo="8">recusar</butto>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="js/typeIt.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
